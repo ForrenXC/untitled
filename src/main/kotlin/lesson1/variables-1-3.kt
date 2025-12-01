@@ -1,14 +1,14 @@
 fun main() {
     val year: Int = 1961
 
-    var hour: Int = 9
-    var minute: Int = 7
+    var hours: Int = 9
+    var minutes: Int = 7
 
     println(year)
-    println(hour)
-    println(minute)
+    println("%02d".format(hours))
+    println("%02d".format(minutes))
 
-    hour = 10
-    minute = 55
-    println("$hour:$minute")
+    hours = 10
+    minutes = 55
+    println("%02d:%02d".format(hours, minutes))
 }
