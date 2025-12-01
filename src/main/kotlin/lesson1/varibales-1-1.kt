@@ -1,4 +1,4 @@
-package org.example.lesson1
-
-val orderCount = 75
-val message = "Спасибо за покупку!"
+fun main() {
+    val orderCount: Int = 75
+    val message: String = "Спасибо за покупку!"
+}
