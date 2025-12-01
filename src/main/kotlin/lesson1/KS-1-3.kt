@@ -8,7 +8,6 @@ fun main() {
     println("%02d".format(hours))
     println("%02d".format(minutes))
 
-
     hours = 10
     minutes = 55
     println("%02d:%02d".format(hours, minutes))
